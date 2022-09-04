@@ -1,0 +1,17 @@
+[package]
+name = "sdlpride-rust"
+version = "0.1.0"
+authors = [
+	"@raisinware"
+]
+
+[[bin]]
+name = "sdlpride-rust"
+path = "main.rs"
+
+[features]
+default = []
+no_main = []
+
+[dependencies]
+sdl = "0.3.6"
